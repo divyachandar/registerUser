@@ -1,0 +1,25 @@
+//API1
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "username": "adam_richard",
+  "name": "Adam Richard",
+  "password": "richard_567",
+  "gender": "male",
+  "location": "Detroit"
+}
+
+###
+// Updates the details of a specific player based on the player ID 
+//API 3
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+ "username": "Richard",
+  "name": "Richard",
+  "password": "richard_123",
+  "gender": "Female",
+  "location": "Dallas"
+}
