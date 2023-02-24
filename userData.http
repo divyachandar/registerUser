@@ -1,3 +1,4 @@
+
 //API1
 POST http://localhost:3000/register
 Content-Type: application/json
@@ -11,15 +12,38 @@ Content-Type: application/json
 }
 
 ###
-// Updates the details of a specific player based on the player ID 
-//API 3
+// User indormation
+//API 1 SCenerio2
 POST http://localhost:3000/register
 Content-Type: application/json
 
 {
- "username": "Richard",
-  "name": "Richard",
-  "password": "richard_123",
+ "username": "Johny",
+  "name": "Peter John",
+  "password": "rich@1234",
   "gender": "Female",
   "location": "Dallas"
+}
+
+###
+// login user
+//API 2 SCenerio1
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "username": "adam_richad",
+  "password": "richard_568"
+}
+
+###
+// Change Password
+//API 3 SCenerio1
+PUT http://localhost:3000/change-password
+Content-Type: application/json
+
+{
+  "username": "adam_richard",
+  "oldPassword": "richard_5",
+  "newPassword": "richard@123"
 }
